@@ -1,0 +1,148 @@
+<div class="about-section">
+<title>About Me</title>
+  <div class="topnavbar">
+  <a href="index.html">Home</a>
+  <a class="active" href="#about">About</a>
+  <a href="Skills.html">Skills</a>
+  <a href="contact.html">Contact</a>
+   <style>
+      body{background-color: white}
+      /* Add a black background color to the top navigation */
+      .topnavbar{
+      background-color: #333;
+      overflow: hidden;
+      }
+      /* Style the links inside the navigation bar */
+      .topnavbar a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      }
+      /* Change the color of links on hover */
+      .topnavbar a:hover {
+      background-color: #111;
+      color: white;
+      }
+      .topnavbar {
+      font-family: "Helvetica", sans-serif,bold;
+      }
+      /* Add *a color to the active/current link */
+      .topnavbar a.active {
+      background-color: #003b6f;
+      color: white;
+      font-weight: bold;
+      }
+   </style>
+</div>
+<h1>About Us Page</h1>
+  <p>We do our best!</p>
+</div>
+
+<h2 style="text-align:center; color:white;">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="Andrew.jpg" alt="Andrew" style="width:100%">
+      <div class="container">
+        <h2>Andrew Bliss</h2>
+        <p class="title">Me</p>
+        <p>I'm Andrew Bliss, I am a student at Western doing my best to be a great Software Engineer</p>
+        <p>abliss4@uwo.ca</p>
+		<form action=contact.html>
+        <p><button class="button">Contact</button></p>
+		</form>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="Stormy.jpg" alt="Stormy" style="width:100%">
+      <div class="container">
+        <h2>Stormy</h2>
+        <p class="title">Moral Support</p>
+        <p>She's pretty cool! She is my dog and I love her so much! She is happy to be a part of the team!</p>
+        <form action=contact.html>
+        <p><button class="button">Contact</button></p>
+		</form>
+      </div>
+    </div>
+  </div>
+
+  
+    </div>
+  </div>
+  <style>
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{background-color: #003b6f}
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  margin: 8px;
+  background-color:white;
+}
+
+.about-section {
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+  </style>
